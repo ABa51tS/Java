@@ -1,0 +1,38 @@
+Write the Java code for each of the problems below. Zip your files and submit them to Brightspace.
+
+1. Create a storage class named BankAccount. 
+           A BankAccount has fields that hold the account number, the customer's name (2 fields), their address, and the balance
+           Create the accessor and mutator methods for each attribute. The class will also contain methods to deposit and withdraw an amount (internally updating the stored balance by the amount deposited or withdrawn). 
+           Create a default constructor to default any numeric attribute to 2 and any string attribute to "empty".
+           Create another constructor to allow you to set all attributes stored within the object when the object is declared.
+           Create a third construct that allows you set all string attributes when the object is declared and defaults all the numeric attributes to 2.
+           Create a display function to show the class's current state.
+           Create a class named TestBankAccount and test all methods you created for your BankAccount class.
+
+
+
+2. Create a storage class named Card.
+   A Card class has fields that store a value (1-10), a string for the full card name (e.g Ace of Spades), and a string to hold an image file name (e.g. spades_ace.png). 
+   Create methods to get and set each of the fields. 
+   Create a method named setCard that accepts a number between 1 and 52 and sets the 3 internal attributes with the proper value, card name, and file name (use a switch). 
+   Overload the setCard method to take a String as a second parameter. If the second parameter is "H" or "h", the value of the ace should be 11 instead of 1.
+   Create a display function to show the class's current state.
+   Create an application named TestCard and test all methods you created for your Card class. 
+
+
+
+3. Create a storage class named Candy.
+   A Candy class has fields that store values for color, length, and price. 
+   Create methods to get and set only color and length (in cm). When the length is added, the price of the candy will be calculated based on a rate of $0.75/cm.
+   Create a default constructor to default the color to "black", the length to 2, and the price to 1.50.
+   Create a secondary constructor to initialize the object with a color and length set when instantiated (price is to be calculated). 
+   Create a display function to show the class's current state.
+
+
+
+4. Create a subclass named BonBons that has extra attributes for type (like chocolate or gumdrop) and calories (e.g. 250).
+   Create accessors and mutators for your new fields.
+   Override your display method to show all 5 attributes.
+   Override your mutator for the length attribute to calculate the price based on a rate of $2.50/cm.
+   Create a default constructor and a constructor where all 5 values are set when the class is instantiated (using the super method(s) as appropriate).
+   Create an application named TestBonCandy to test your Candy and BonBon classes (test all methods).
